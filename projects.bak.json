@@ -1,0 +1,47 @@
+[
+	{
+		"customer": "NTNU",
+		"name": "Digitalisering av studieplanprosessen", 
+		"description": [
+			"Prosjektet skal effektivisere og forbedre studieplanprosessen og kvalitetssystemet  ved NTNU gjennom digitalisering og organisasjonsendring. Prosjektet har grenseflater mot de fleste organisatoriske lag ved NTNU samt en rekke sektorløsninger som for eksempel FS.",
+			"Det er sett for seg at prosjektet vil spare NTNU for 50-100 årsverk i tillegg til at man vil oppnå en betydelig kvalitetsforbedring."
+		],
+		"consultants": [
+			{"name": "Thorleif Hallén",
+			 "qualifications": [
+				"Digitalt tjenestedesign",
+				"Fagledelse og utvikling",
+				"Offentlig anskaffelse",
+				"Spesialkompetanse UH"
+				]
+			}
+		]
+	},
+	{
+		"customer": "Trondheim kommune", 
+		"name": "Mottak av Helseplattformen", 
+		"description": [
+			"Prosjektet skal koordinere mottak og implementasjon av helseplattformen."
+		],
+		"consultants": [
+			{"name": "Hanne Merete Glad",
+			 "qualifications": [
+				"Prosess- og endringsledelse, styringsmekanismer",
+				"Offentlig anskaffelse",
+				"IT-ledelse"
+			 ]}
+		]		
+	},
+	{
+		"customer": "NTNU",
+		"name": "TiA",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Henning Storhaug",
+				"group": "Konsulent",
+				"qualifications": []
+			}
+		]
+	}
+]

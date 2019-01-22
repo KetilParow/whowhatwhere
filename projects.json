@@ -1,0 +1,628 @@
+[
+	{
+		"customer": "Arbeidstilsynet",
+		"name": "Prosjektledelse",
+		"descriptions": ["Program for fornyelse av Arbeidstilsynets fagsystemer","Systemstøtte for tilsynsprosess, varsling, ulykker, politisaker, enhetlige prosesser"],
+		"consultants": [
+			{
+				"name": "Jørgen Berg Lauvsnes",
+				"group": "Konsulent",
+				"qualifications": ["Prosjektleder"]
+			},
+			{
+				"name": "Bjørn Tore Kvam",
+				"group": "Konsulent",
+				"qualifications": ["Teamlead forvaltning",".Net utvikling","SQL Server"]
+			},
+			{
+				"name": "Geir Domaas",
+				"group": "Systemutvikling",
+				"qualifications": ["SQL Server",".Net utvikling"]
+			},
+			{
+				"name": "Jan Erik Digernes",
+				"group": "Systemutvikling",
+				"qualifications": ["Test lead",".Net utvikling", "Azure", "Testrammeverk"]
+			},
+			{
+				"name": "Egil Aleksander Bugge",
+				"group": "Systemutvikling",
+				"qualifications": [".Net utvikling", "SQL Server"]
+			},
+			{
+				"name": "Kristian Winther",
+				"group": "Systemutvikling",
+				"qualifications": [".Net utvikling", "UX design", "Azure"]
+			}
+		]
+	},
+	{
+		"customer": "BN Bank",
+		"name": "Kundeavgangsmodell",
+		"descriptions": ["Maskinlæringsprosjekt. Formålet er å prøve å predikere potensiell kundeflukt med basis i sentimentanalyser fra forskjellige SoMe-kilder"],
+		"consultants": [
+			{
+				"name": "Einar Wigum Arbo",
+				"group": "Systemutvikling",
+				"qualifications": ["Data scientist"]
+			}
+		]
+	},
+	{
+		"customer": "DA",
+		"name": "Digitale domstoler",
+		"descriptions": ["Aktørportalen (2018), ett av flere delprosjekter. Integrasjon mot eksterne systemer (domstolenes Aktørportal og advokaters fagsystemer), innføring av digital signatur i domstolene."],
+		"consultants": [
+			{
+				"name": "Trond-Eirik Kolloen",
+				"group": "Konsulent",
+				"qualifications": ["Prosjektleder", "Prosessanalytiker", "Produkteier", "Integrasjonsarkitekt", "Systemarkitekt" ,"Forretningsarkitekt"],
+				"imagefile": "tek.jpg"
+			}
+		]
+	},
+	{
+		"customer": "DeBank",
+		"name": "CRM",
+		"descriptions": ["Implementasjon og forvaltning av bankens CRM-system og flere virksomhetskritiske integrasjonstjenester"],
+		"consultants": [
+			{
+				"name": "Lars Einar Lønvik",
+				"group": "Konsulent",
+				"qualifications": ["Sugar CRM","PHP","REST", "Integrasjon","Kravhåndtering, prosesser"]
+			}
+		]
+	},
+	{
+	"customer": "DeBank",
+	"name": "Integrasjonsmotor",
+	"descriptions": ["Integrasjoner mot tredjeparter"],
+	"consultants": [
+		{
+			"name": "Andreas Ravnestad",
+			"group": "Systemutvikling",
+			"qualifications": ["Azure", "Digital signing (Signicat)"],
+			"imagefile": "ar.jpg"
+		}
+	]
+	},
+	{
+		"customer": "DeBank",
+		"name": "Kjerne-API",
+		"descriptions": ["Integrasjon for kjernebank, nettbank og eksterne aktører, samt intern og ekstern rapportering"],
+		"consultants": [
+			{
+				"name": "Ketil Parow",
+				"group": "Konsulent",
+				"qualifications": [".Net web API","REST"]
+			}
+		]
+	},
+	{
+	"customer": "DeBank",
+	"name": "Kjerne-API/Scoring",
+	"descriptions": [],
+	"consultants": [
+		{
+			"name": "Elias Sundby Aukan",
+			"group": "Systemutvikling",
+			"qualifications": [".Net WebAPI, REST","Azure"],
+			"imagefile": "esa.jpg"
+		}
+	]
+	},
+	{
+		"customer": "Difi",
+		"name": "Kunnskapsgrunnlag ML, KI og stordata",
+		"descriptions": [                               "Norconsult utarbeider et kunnskapsgrunnlag for Difi om bruk av maskinklæring, kunstig intelligens og stordata i Difis fellesløsninger. Dette omfatter eInnsyn, ID-porten, eSignering, Digital postkasse, kontakt- og reservasjonsregisteret og eFormidling. Som del av oppdraget har vi gjennomført fagdager for Difis ansatte og intervjuer med prosjektsjefer og arkitekter. I tillegg skal vi gjennomføre konseptutprøvinger av noen utvalgte anvendelsesområder."],
+		"consultants": [
+			{
+				"name": "Andreas Ravnestad",
+				"group": "Systemutvikling",
+				"qualifications": ["Koordinering"]
+			},
+			{
+				"name": "Viggo T. Wivestad",
+				"group": "Systemutvikling",
+				"qualifications": ["Data scientist"]
+			},
+			{
+				"name": "Thomas Thoresen",
+				"group": "Systemutvikling",
+				"qualifications": ["Data scientist"]
+			},
+			{
+				"name": "Jørgen Longva",
+				"group": "Administrasjon",
+				"qualifications": ["Koordinering"]
+			}
+		]
+	},
+	{
+		"customer": "E39 (Norconsult / AF)",
+		"name": "RPA",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Ketil Parow",
+				"group": "Konsulent",
+				"qualifications": ["Prosessanalyse", "Koordinering"]
+			},
+			{
+				"name": "John Michael Obligar",
+				"group": "Konsulent",
+				"qualifications": ["BluePrism Robot utvikling"]
+			},
+			{
+				"name": "Roger Schei Bergheim",
+				"group": "Konsulent",
+				"qualifications": ["BluePrism Robot utvikling"]
+			}
+		]
+	},
+	{
+		"customer": "Equinor",
+		"name": "Endur",
+		"descriptions": ["Forvaltning av ENDUR trading"],
+		"consultants": [
+			{
+				"name": "Elin Hybertsen",
+				"group": "Konsulent",
+				"qualifications": ["Teamlead forvaltning",".Net","Java"]
+				
+			}
+		]
+	},
+	{
+		"customer": "Equinor",
+		"name": "VR/AR, Azure",
+		"descriptions": ["Digital tvilling.  Utvikling av virtuelle sanntidsversjoner av Equinors installasjoner. Gjør det mulig for personer som er ute i felt å få opp tegninger og opplysninger virtuelt mens man går rundt på en plattform eller installasjon."],
+		"consultants": [
+			{
+				"name": "Anders Aabakken",
+				"group": "Systemutvikling",
+				"qualifications": ["Hololens","Unity","Azure","IOS","AR/VR"]
+			}
+		]
+	},
+	{
+		"customer": "Equinor",
+		"name": "Prediktivt vedlikehold av vindmøller",
+		"descriptions": ["Prediktivt vedlikehold på offshore vindturbiner ut fra SCADA-data."],
+		"consultants": [
+			{
+				"name": "Thomas Thoresen",
+				"group": "Systemutvikling",
+				"qualifications": ["Maskinlæring", "Tidsseriedata","Azure Databricks","Python"]
+			}
+		]
+	},
+	{
+		"customer": "Equinor",
+		"name": "ROBIM: Real-time Offshore Barrier Integrity Map",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Sindre Fjermestad",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Flere kunder",
+		"name": "ELRapp/Oslo renhold/Sikkerhet",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Daniel Turon",
+				"group": "ITSUR",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Kirkebygg",
+		"name": "Database",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Knut Johan Hesten",
+				"group": "ITSUR",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Kystverket",
+		"name": "SSN",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Terje Hellesvik",
+				"group": "Konsulent",
+				"qualifications": [],
+				"imagefile": "terje.jpg"
+			},
+			{
+				"name": "Mats Hoel",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Stefan V. Haug",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Steinar Haram",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Bård Løkås",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Lånekassen",
+		"name": "Anonymisering/EVU",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Jan Ivar Vik",
+				"group": "Konsulent",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "NoIS",
+		"name": "ISY Prosjekt",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Siri Helen Wroldsen",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Jon Sommervold",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Kristian Rasmussen",
+				"group": "ITSUR",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "NoIS",
+		"name": "MADART",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Vigleik Lund",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Norconsult",
+		"name": "Sikkerhet",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Chris Tesli",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Eskil Elness",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Marco Agnese",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Remi Jacobsen Hauge",
+				"group": "ITSUR",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Norconsult",
+		"name": "Sikkerhet GDPR",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Runa Skimten",
+				"group": "ITSUR",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Norconsult IT",
+		"name": "ECM/Fysiske arkiver, og Bildebank",
+		"descriptions": ["Prosjektleder på to forskjellige prosjekter","Arkivprosjektet skal strømlinjeforme arkivfunksjonene/prosessene i Norconsult.", "Bildebankprosjektet går ut på å opprette en søkbar elektronisk bildebank for marked / kommunikasjon"],
+		"consultants": [
+			{
+				"name": "Kai Morgan",
+				"group": "Konsulent",
+				"qualifications": ["Prosjektleder","Prosessforbedring"]
+			}
+		]
+	},
+	{
+		"customer": "Norconsult IT",
+		"name": "Prosjekt- og porteføljestyring",
+		"descriptions": ["IT-Prosjekter i regi av Norconsult IT. ECM, portal, arkiv, bildebank, NIH"],
+		"consultants": [
+			{
+				"name": "Jørgen Longva",
+				"group": "Administrasjon",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "NTNU",
+		"name": "Digital vurdering",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Bernt Skjemstad",
+				"group": "Konsulent",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "NTNU",
+		"name": "Prosjektledelse på to prosjekter: NTNU Videre, NTNU Alumni",
+		"descriptions": ["Begge prosjektene skal innføre ny programvare i NTNU sin organisasjon.","Hos NTNU Videre skal innmeldingsprosess for undervisningsemner digitaliseres, fra en papirbasert prosess i dag.","Hos NTNU Alumni skal et eldre CRM-system erstattes med tilpasset hyllevare (MS Dynamics)."],
+		"consultants": [
+			{
+				"name": "Anders Emil Hustoft",
+				"group": "Konsulent",
+				"qualifications": [
+				"Prosjektledelse på mottakssiden",
+				"Test og testledelse",
+				"Offentlig anskaffelse",
+				"Overlevering til drift og forvaltning"]
+			}
+		]
+	},
+	{
+		"customer": "NTNU",
+		"name": "Robotisering",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Stig Owe Olsen",
+				"group": "Konsulent",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "NTNU",
+		"name": "Digitalisering av studieplanprosessen",
+		"descriptions": [
+			"Prosjektet skal effektivisere og forbedre studieplanprosessen og kvalitetssystemet  ved NTNU gjennom digitalisering og organisasjonsendring. Prosjektet har grenseflater mot de fleste organisatoriske lag ved NTNU samt en rekke sektorløsninger som for eksempel FS.",
+			"Det er sett for seg at prosjektet vil spare NTNU for 50-100 årsverk i tillegg til at man vil oppnå en betydelig kvalitetsforbedring."
+			],
+		"consultants": [
+			{
+				"name": "Thorleif Hallén",
+				"group": "Konsulent",
+				"qualifications": ["Digitalt tjenestedesign",
+				"Fagledelse og utvikling",
+				"Offentlig anskaffelse",
+				"Spesialkompetanse UH"]
+			}
+		]
+	},	
+	{
+		"customer": "Siemens",
+		"name": "Smarte Ladestasjoner",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Andreas Ravnestad",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Viggo T. Wivestad",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Thomas Thoresen",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Bjørn Hakavik",
+				"group": "GIS & KF",
+				"qualifications": [],
+				"imagefile": "hakavik.jpg"
+			},
+			{
+				"name": "Jørgen Longva",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "SINTEF",
+		"name": "API for vannkraftprediksjon",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Bjørnar Vassøy",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "SVV",
+		"name": "Brutus og grunnerverv",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Berit Høyem",
+				"group": "Konsulent",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "SVV",
+		"name": "ELRapp",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Marita Ruud Gundersen",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Adrian Kreutz",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Anders Norstad Kroken",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Marius Bye Hagen",
+				"group": "Systemutvikling",
+				"qualifications": []
+			},
+			{
+				"name": "Morten Stenseth",
+				"group": "ITSUR",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "SVV",
+		"name": "Testledelse",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Knut Harald Langøren",
+				"group": "Konsulent",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "SVV",
+		"name": "Timeplan",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Øyvind Dragsten",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Knut Johan Hesten",
+				"group": "ITSUR",
+				"qualifications": []
+			},
+			{
+				"name": "Kamilla Bremeraunet",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Sykehusbygg",
+		"name": "Klassifikasjonssystemet",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Egil Aleksander Bugge",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	},
+	{
+		"customer": "Telenor",
+		"name": "Webutvikling",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Kjetil Møkkelgjerd",
+				"group": "Systemutvikling",
+				"qualifications": [],
+				"imagefile": "kjetilm.jpg"
+			}
+		]
+	},
+	{
+		"customer": "Trondheim kommune",
+		"name": "Anskaffelse pasientvarsling",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Hanne Merete Glad",
+				"group": "Konsulent",
+				"qualifications": [
+				"Styringsmekanismer, ledelse og prosess- og endringsledelse",
+				"Offentlige anskaffelser",
+				"IT-ledelse"
+				]
+			}
+		]
+	},
+	{
+		"customer": "Trondheim kommune",
+		"name": "Mottaksprosjekt Helseplattformen",
+		"descriptions": ["Prosjektet skal koordinere mottak og implementasjon av helseplattformen."],
+		"consultants": [
+			{
+				"name": "Hanne Merete Glad",
+				"group": "Konsulent",
+				"qualifications": [
+				"Styringsmekanismer, ledelse og prosess- og endringsledelse",
+				"Offentlige anskaffelser",
+				"IT-ledelse"
+				]
+			}
+		]
+	},	
+	{
+		"customer": "Volmax",
+		"name": "AI/ML/Utvikling",
+		"descriptions": [],
+		"consultants": [
+			{
+				"name": "Einar Wigum Arbo",
+				"group": "Systemutvikling",
+				"qualifications": []
+			}
+		]
+	}
+]

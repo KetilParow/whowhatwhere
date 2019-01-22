@@ -1,0 +1,33 @@
+.who-what-where {
+    padding: 2rem;
+}
+.slideshow {
+    padding: .5rem;
+}
+
+.slideshow .consultant-picture img {
+    border-radius: .25rem;
+}
+
+.slideshow .consultants .consultant-row {
+    padding-bottom: .5rem;
+}
+.slideshow .consultants .consultant-row .consultant-picture {
+    /*padding-top: .2rem;*/
+    padding-bottom: .5rem;
+}
+
+.slideshow .consultants .consultant-row .consultant-picture img {
+    /*padding-top: .2rem;*/
+    max-height: 200px;
+}
+
+.slideshow > button.edit {
+    font-size: 0.6em;
+}
+    /*.slideshow .controls {
+        border: 1px;
+        border-radius: .25rem;
+        border-style: outset;
+        border-color: whitesmoke;
+    }*/
