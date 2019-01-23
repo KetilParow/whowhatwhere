@@ -162,13 +162,13 @@
 	},
 	{
 		"customer": "Equinor",
-		"name": "Endur",
-		"descriptions": ["Forvaltning av ENDUR trading"],
+		"name": "Forvaltning Trading systemer og overvåkning",
+		"descriptions": ["Integrasjon av Staoils trading systemer, ENDUR, RATS, Elviz",""],
 		"consultants": [
 			{
 				"name": "Elin Hybertsen",
 				"group": "Konsulent",
-				"qualifications": ["Teamlead forvaltning",".Net","Java"]
+				"qualifications": ["Teamlead forvaltning",".Net","Java","Integrasjon","Oracle"]
 				
 			}
 		]
@@ -210,14 +210,26 @@
 		]
 	},
 	{
-		"customer": "Flere kunder",
-		"name": "ELRapp/Oslo renhold/Sikkerhet",
-		"descriptions": [],
+		"customer": "Renovasjonsetaten i Oslo",
+		"name": "Integrasjon GeoInnsyn-WebDEB",
+		"descriptions": ["Forvaltning, integrasjon av GeoInnsyn (Nois/OpenLayers) og WebDEB (fra Visma)"],
 		"consultants": [
 			{
 				"name": "Daniel Turon",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Test lead"]
+			}
+		]
+	},
+	{
+		"customer": "Kongsberg Defense & Aerospace",
+		"name": "Multirolle Radio (MRR)",
+		"descriptions": ["Family of VHF radios designed for both data and voice communication as a Multi Role Radio (MRR). It's performance is optimized for use in weapon systems, and is in operational use in a number of Air Defence systems around the world."],
+		"consultants": [
+			{
+				"name": "Daniel Turon",
+				"group": "ITSUR",
+				"qualifications": ["Test lead","Common Criteria evaluering"]
 			}
 		]
 	},
@@ -519,6 +531,11 @@
 				"name": "Morten Stenseth",
 				"group": "ITSUR",
 				"qualifications": []
+			},
+			{
+				"name": "Daniel Turon",
+				"group": "ITSUR",
+				"qualifications": ["Test lead"]
 			}
 		]
 	},
