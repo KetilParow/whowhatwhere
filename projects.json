@@ -390,12 +390,15 @@
 	{
 		"customer": "NTNU",
 		"name": "Digital vurdering",
-		"descriptions": [],
+		"descriptions": [
+			"Prosjekt for digital vurdering ved NTNU skal digitalisere vurderingsprosessen ved universitetet; kvaliteten i vurdering og saksbehandling øker, prosesser og løsninger effektiviseres og standardiseres; vurdering ved NTNU moderniseres.", 
+			"Fra en andel på 4% digitale eksamener gjennom eksamenssystemet i Inspera Assessment ved oppstart i 2016, er tallet nå cirka 34%. Høsten 2018 åpnet et nytt lokale for gjennomføring av digitale eksamener på Sluppen, med plass til 2800 studenter per dag. Nye deler av en bedre vurderingsprosess lanseres og blir tatt i bruk kontinuerlig."
+		],
 		"consultants": [
 			{
 				"name": "Bernt Skjemstad",
 				"group": "Konsulent",
-				"qualifications": []
+				"qualifications": ["UH Spesialistkompetanse","Prosjektleder","Arkitekt"]
 			}
 		]
 	},
@@ -417,13 +420,13 @@
 	},
 	{
 		"customer": "NTNU",
-		"name": "Robotisering",
-		"descriptions": [],
+		"name": "Digitaliseringsprogrammet ved NTNU, Robotisering",
+		"descriptions": ["Identifisering, scoring og modellering av prosesser som skal/kan robotiseres (RPA), på tvers av organisasjonsenheter"],
 		"consultants": [
 			{
 				"name": "Stig Owe Olsen",
 				"group": "Konsulent",
-				"qualifications": []
+				"qualifications": ["Prosjektleder","RPA Prosessanalyse"]
 			}
 		]
 	},
@@ -448,33 +451,35 @@
 	{
 		"customer": "Siemens",
 		"name": "Smarte Ladestasjoner",
-		"descriptions": [],
+		"descriptions": [
+			"Som en del av det grønne skiftet skal Siemens, i samarbeid med Forskningsrådet, Innovasjon Norge og Enova, bytte ut rundt 30 dieselferger med elektriske ferger langs vestkysten av Norge. For å sikre stabil ladekapasitet, selv for anlegg med kapasitetsbegrensninger i strømnettet, har Siemens besluttet å opprette såkalte «smarte ladestasjoner» som skal fungere som en batteribank med hurtigladefunksjonalitet mot fergene. For å få mest mulig utbytte av teknologien er Norconsult leid inn for å bistå med utviklingen av automatisk energiplanlegging basert på maskinlæring. I første omgang arbeides mot å få på plass en sikker IT-integrasjon som sikrer dataintegritet samtidig som den sørger for en felles standard for innhenting og utveksling av data. Videre skal måleverdier fra bl.a. fergen og ladestasjonen brukes til optimalisering av batterilevetid, optimale ladeprosesser og pålitelig drift."
+		],
 		"consultants": [
 			{
 				"name": "Andreas Ravnestad",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Kommunikasjon","Ressurskoordinator"]
 			},
 			{
 				"name": "Viggo T. Wivestad",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Data scientist"]
 			},
 			{
 				"name": "Thomas Thoresen",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Data scientist"]
 			},
 			{
 				"name": "Bjørn Hakavik",
 				"group": "GIS & KF",
-				"qualifications": [],
+				"qualifications": ["Seniorrådgiver", "samhandling mot strømnettleverandører"],
 				"imagefile": "hakavik.jpg"
 			},
 			{
 				"name": "Jørgen Longva",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Koordinator"]
 			}
 		]
 	},
@@ -491,21 +496,24 @@
 		]
 	},
 	{
-		"customer": "SVV",
-		"name": "Brutus og grunnerverv",
-		"descriptions": [],
+		"customer": "Statens vegvesen",
+		"name": "Brutus og Grunnerverv",
+		"descriptions": [
+			"Bruforvaltnings og beredskaps-system, ivaretar data om Byggverk, Vegreferanser, Bæreevne, Inspeksjon og brutilstand, Planlegging av tiltak, Sikkerhetsstyring. Har også et arkiv for relatert dokumentasjon",
+			"«Grunnerverv» er systemstøtte for vegvesenets overtakelse grunnarealse for veiutbygging, med utgangspunkt i vedtatte reguleringsplaner." 
+		],
 		"consultants": [
 			{
 				"name": "Berit Høyem",
 				"group": "Konsulent",
-				"qualifications": []
+				"qualifications": ["Produkteier","Arkitekt"]
 			}
 		]
 	},
 	{
-		"customer": "SVV",
+		"customer": "Statens vegvesen",
 		"name": "ELRapp",
-		"descriptions": [],
+		"descriptions": ["Portal for oppfølging av vegvesenets entreprisekontrakter. Kontroll av rapportering som entreprenører er pålagt å utføre på vegne av Statens vegvesen, og generelt oppfølging av kontraktsforpliktelser."],
 		"consultants": [
 			{
 				"name": "Marita Ruud Gundersen",
@@ -525,7 +533,7 @@
 			{
 				"name": "Marius Bye Hagen",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": [".Net", "Asp.net"]
 			},
 			{
 				"name": "Morten Stenseth",
@@ -540,36 +548,36 @@
 		]
 	},
 	{
-		"customer": "SVV",
-		"name": "Testledelse",
-		"descriptions": [],
+		"customer": "Statens vegvesen",
+		"name": "NVDB Nytt Referansesystem",
+		"descriptions": ["Nytt referansesystem for alle veiobjekter i Norsk VeiDataBase, uavhengig av administrative endringer, som Kommune og Region-Reformen"],
 		"consultants": [
 			{
 				"name": "Knut Harald Langøren",
 				"group": "Konsulent",
-				"qualifications": []
+				"qualifications": ["Testledelse"]
 			}
 		]
 	},
 	{
-		"customer": "SVV",
+		"customer": "Statens vegvesen",
 		"name": "Timeplan",
-		"descriptions": [],
+		"descriptions": ["Timeplan er et kjøretøykontrollbookingsystem i bruk på trafikkstasjoner hos Vegvesenet. Det håndterer planlegging, booking og oppfølging av kontroller. Systemet benyttes også for selvbetjeningsløsningen på vegvesen.no via et API"],
 		"consultants": [
 			{
 				"name": "Øyvind Dragsten",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Prosjektleder"]
 			},
 			{
 				"name": "Knut Johan Hesten",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": [".Net utvikling", "Oracle"]
 			},
 			{
 				"name": "Kamilla Bremeraunet",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": [".Net Utvikling", "Oracle"]
 			}
 		]
 	},
@@ -600,16 +608,15 @@
 	},
 	{
 		"customer": "Trondheim kommune",
-		"name": "Anskaffelse pasientvarsling",
+		"name": "Digitalt førstevalg, IT-Støtte for saksbehandling (ITS)",
 		"descriptions": [],
 		"consultants": [
 			{
 				"name": "Hanne Merete Glad",
 				"group": "Konsulent",
 				"qualifications": [
-				"Styringsmekanismer, ledelse og prosess- og endringsledelse",
-				"Offentlige anskaffelser",
-				"IT-ledelse"
+				"Prosjektleder",
+				"Offentlige anskaffelser"
 				]
 			}
 		]
@@ -617,12 +624,13 @@
 	{
 		"customer": "Trondheim kommune",
 		"name": "Mottaksprosjekt Helseplattformen",
-		"descriptions": ["Prosjektet skal koordinere mottak og implementasjon av helseplattformen."],
+		"descriptions": ["På oppdrag fra Helse og Omsorgsdepartementet har Helse Midt Norge RHF og Trondheim kommune fått i oppdrag å være pilot for anskaffelse og innføring av ny felles pasientjournal til kommuner, fastleger og sykehus i Midt-Norge. Ny felles pasientjournal skal være implementert november 2021."],
 		"consultants": [
 			{
 				"name": "Hanne Merete Glad",
 				"group": "Konsulent",
 				"qualifications": [
+				"Lokal innføringsleder",
 				"Styringsmekanismer, ledelse og prosess- og endringsledelse",
 				"Offentlige anskaffelser",
 				"IT-ledelse"
