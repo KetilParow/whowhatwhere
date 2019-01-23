@@ -1,8 +1,28 @@
 .who-what-where {
-    padding: 2rem;
+    padding: 1.8rem;
+
+}
+
+.who-what-where #project-prez {
+    min-height: 420px;
+    position:relative;
+}
+
+.who-what-where .edit {
+    position: absolute;
+    bottom:0;
+}
+
+.consultant-row .consultant-data h4 {
+    white-space: nowrap;
+
 }
 .slideshow {
     padding: .5rem;
+}
+
+.slideshow .project-data p {
+    margin-bottom:.5rem;
 }
 
 .slideshow .consultant-picture img {
