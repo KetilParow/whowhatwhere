@@ -15,18 +15,19 @@
     <script type="text/html" id="project-template">
         <h2 data-bind="text:customer"></h2>
         <!-- <div data-bind="foreach:projects"> -->
-        <h3 data-bind="text:name"></h3>
-        <!--ko foreach: descriptions-->
-        <p data-bind="text:$data"></p>
-        <!--/ko-->
-        
+        <div class="project-data">
+            <h3 data-bind="text:name"></h3>
+            <!--ko foreach: descriptions-->
+            <p data-bind="text:$data"></p>
+            <!--/ko-->
+        </div>
         <div data-bind="foreach:consultants" class="consultants container-flow">
             <div class="row consultant-row">
                 <div class="consultant-data col">
                     <h4 data-bind="text: group + ': ' + name"></h4>
                     
                     <ul data-bind="foreach:qualifications">
-                        <li data-bind="text:$data">say what?</li>
+                        <li data-bind="text:$data"></li>
                     </ul>
                 </div>
                 <div class="consultant-picture col" data-bind="visible: imagefile != null">
@@ -50,9 +51,7 @@
                     <div id="project-prez">
                         <div class="project" data-bind="attr: {id: 'p-' + $data.selectedProj()}, template: {name: 'project-template', data: $data[$data.selectedProj()]}">
                         </div>
-                        <a 
-                           class="btn edit" 
-                           data-bind="attr: { download: 'proj' + $data.selectedProj() + '.json', href: 'data:application/json;charset=UTF-8,' + escape(JSON.stringify($data[$data.selectedProj()], null, '\t')) }"><span class="oi oi-pencil"></span></a>
+                        <a  class="btn edit" data-bind="attr: { download: 'proj' + $data.selectedProj() + '.json', href: 'data:application/json;charset=UTF-8,' + escape(JSON.stringify($data[$data.selectedProj()], null, '\t')) }"><span class="oi oi-pencil"></span></a>
                     </div>
                 </div>
         </div>
@@ -110,21 +109,34 @@
                 }
             );
             
-            $(".next").on("click", function () {
+            $(".next").on("click", function (event) {
+                event.stopPropagation();
                 if (projects.selectedProj() < projects.length - 1) {
                     projects.selectedProj(projects.selectedProj() + 1);
                 }
             });
 
-            $(".prev").on("click", function () {
+            $(".prev").on("click", function (event) {
+                event.stopPropagation();
                 if (projects.selectedProj() > 0) {
                     projects.selectedProj(projects.selectedProj() - 1);
                 }
             });
-            $(".reload").on("click", function () {
+            $(".reload").on("click", function (event) {
+                event.stopPropagation();
                 window.location.replace(window.location.origin + window.location.pathname + (projects.selectedProj() > 0? ("?id=" + projects.selectedProj()) :""));
             });
+            $("A").on("click", function (event) { event.stopPropagation();});
+            //$(".slideshow").on("click", function (event) {
+            //    if (event.button === 0) {                    
+            //        let $btn = (event.clientX > ($(".slideshow").width() / 2)
+            //            ? $(".next")
+            //            : $(".prev"));
+            //        $btn.click();
+            //    }
+            //});
             $(".go-home").attr("href", window.location.origin + window.location.pathname);
+
         });
     </script>
 
