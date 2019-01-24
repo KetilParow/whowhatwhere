@@ -38,7 +38,7 @@
 	},
 	{
 		"customer": "BN Bank",
-		"name": "Kundeavgangsmodell",
+		"name": "Kundeavgangsmodell for forbrukslån",
 		"descriptions": ["Maskinlæringsprosjekt. Formålet er å prøve å predikere potensiell kundeflukt med basis i sentimentanalyser fra forskjellige SoMe-kilder"],
 		"consultants": [
 			{
@@ -76,13 +76,19 @@
 	{
 	"customer": "DeBank",
 	"name": "Integrasjonsmotor",
-	"descriptions": ["Integrasjoner mot tredjeparter"],
+	"descriptions": ["Integrasjonsplattform som gjør det mulig for eksterne tredjeparter såvel som interne systemer å enkelt integrere seg med andre komponenter i DeBanks IT-portefølje."],
 	"consultants": [
 		{
 			"name": "Andreas Ravnestad",
 			"group": "Systemutvikling",
-			"qualifications": ["Azure", "Digital signing (Signicat)"],
+			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
 			"imagefile": "ar.jpg"
+		},
+		{
+			"name": "Elias Sundby Aukan",
+			"group": "Systemutvikling",
+			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)", "Scoring", "REST-API"],
+			"imagefile": "esa.jpg"
 		}
 	]
 	},
@@ -114,12 +120,12 @@
 	{
 		"customer": "Difi",
 		"name": "Kunnskapsgrunnlag ML, KI og stordata",
-		"descriptions": ["Norconsult utarbeider et kunnskapsgrunnlag for Difi om bruk av maskinklæring, kunstig intelligens og stordata i Difis fellesløsninger. Dette omfatter eInnsyn, ID-porten, eSignering, Digital postkasse, kontakt- og reservasjonsregisteret og eFormidling. Som del av oppdraget har vi gjennomført fagdager for Difis ansatte og intervjuer med prosjektsjefer og arkitekter. I tillegg skal vi gjennomføre konseptutprøvinger av noen utvalgte anvendelsesområder."],
+		"descriptions": ["Norconsult utarbeider et kunnskapsgrunnlag for Difi om bruk av maskinlæring, kunstig intelligens og stordata i Difis fellesløsninger. Dette omfatter eInnsyn, ID-porten, eSignering, Digital postkasse, kontakt- og reservasjonsregisteret og eFormidling. Som del av oppdraget har vi gjennomført fagdager for Difis ansatte og intervjuer med prosjektsjefer og arkitekter. I tillegg skal vi gjennomføre konseptutprøvinger av noen utvalgte anvendelsesområder."],
 		"consultants": [
 			{
 				"name": "Andreas Ravnestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Koordinering"]
+				"qualifications": ["Wannabe og stadig plagiert Powerpoint-artist"]
 			},
 			{
 				"name": "Viggo T. Wivestad",
@@ -456,7 +462,7 @@
 	},	
 	{
 		"customer": "Siemens",
-		"name": "Smarte Ladestasjoner",
+		"name": "Smart energiplanlegging for batteridrevne ferjer",
 		"descriptions": [
 			"Som en del av det grønne skiftet skal Siemens, i samarbeid med Forskningsrådet, Innovasjon Norge og Enova, bytte ut rundt 30 dieselferger med elektriske ferger langs vestkysten av Norge. For å sikre stabil ladekapasitet, selv for anlegg med kapasitetsbegrensninger i strømnettet, har Siemens besluttet å opprette såkalte «smarte ladestasjoner» som skal fungere som en batteribank med hurtigladefunksjonalitet mot fergene. For å få mest mulig utbytte av teknologien er Norconsult leid inn for å bistå med utviklingen av automatisk energiplanlegging basert på maskinlæring. I første omgang arbeides mot å få på plass en sikker IT-integrasjon som sikrer dataintegritet samtidig som den sørger for en felles standard for innhenting og utveksling av data. Videre skal måleverdier fra bl.a. fergen og ladestasjonen brukes til optimalisering av batterilevetid, optimale ladeprosesser og pålitelig drift."
 		],
@@ -464,40 +470,40 @@
 			{
 				"name": "Andreas Ravnestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Kommunikasjon","Ressurskoordinator"]
+				"qualifications": ["Rådgivning"]
 			},
 			{
 				"name": "Viggo T. Wivestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Data scientist"]
+				"qualifications": ["Rådgivning"]
 			},
 			{
 				"name": "Thomas Thoresen",
 				"group": "Systemutvikling",
-				"qualifications": ["Data scientist"]
+				"qualifications": ["Rådgivning"]
 			},
 			{
 				"name": "Bjørn Hakavik",
 				"group": "GIS & KF",
-				"qualifications": ["Seniorrådgiver", "samhandling mot strømnettleverandører"],
+				"qualifications": ["Rådgivning", "samhandling mot strømnettleverandører"],
 				"imagefile": "hakavik.jpg"
 			},
 			{
 				"name": "Jørgen Longva",
 				"group": "Systemutvikling",
-				"qualifications": ["Koordinator"]
+				"qualifications": ["Rådgivning"]
 			}
 		]
 	},
 	{
 		"customer": "SINTEF",
-		"name": "API for vannkraftprediksjon",
-		"descriptions": [],
+		"name": "Integrasjon av API for vannkraftprediksjon",
+		"descriptions": ["Integrasjon av SINTEF SHOP som er et korttids produksjonsplanleggingsverktøy som fokuserer på optimal bruk av vannkraftressurser"],
 		"consultants": [
 			{
 				"name": "Bjørnar Vassøy",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Python", "C/C++"]
 			}
 		]
 	},
@@ -650,12 +656,12 @@
 	{
 		"customer": "Volmax",
 		"name": "AI/ML/Utvikling",
-		"descriptions": [],
+		"descriptions": ["Prediksjon av kostnader og prising for servicekontrakter på Volvo lastebiler"],
 		"consultants": [
 			{
 				"name": "Einar Wigum Arbo",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Python", "AI/ML", "Jupyter Notebook"]
 			}
 		]
 	}
