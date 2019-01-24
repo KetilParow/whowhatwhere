@@ -8,14 +8,36 @@
     position:relative;
 }
 
-.who-what-where .edit {
+.who-what-where .misc {
     position: absolute;
     bottom:0;
 }
 
+.toggle-handle {
+    background: #6c757d;
+}
+
+
+.toggle.btn {
+    border : 1px #6c757d solid;
+}
+
+.misc .toggle-group .btn {
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.misc .toggle.btn {    
+    min-height: 0;
+}
+.misc > .btn.edit {
+    height: 22px;
+    padding-top: 2px;
+}
+
+
 .consultant-row .consultant-data h4 {
     white-space: nowrap;
-
 }
 .slideshow {
     padding: .5rem;

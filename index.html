@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/knockout.js"></script>
+    <script src="scripts/bootstrap-toggle.js"></script>
+    <script src="scripts/slideshow.js"></script>
     <link rel="stylesheet" type="text/css" href="content/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="content/open-iconic-bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="content/bootstrap-toggle.css" />
     <link rel="stylesheet" type="text/css" href="content/slideshow.css" />
     <title>Hvem hva hvor ©2019, Fundator </title>
 
@@ -40,104 +43,30 @@
     <div class="slideshow">
         <div class="who-what-where jumbotron">
             <div class="container-fluid">
-                <a class="go-home" href="" style="text-decoration: none; color:inherit"><h1 class="display-4">Hvem, Hva, Hvor (i avdeling Fundator)</h1></a>
-                <div class="navigate">
-                    <div class="btn-group controls" role="group">
-                        <button type="button" class="btn prev btn-secondary"><span class="oi oi-chevron-left"></span></button>
-                        <button type="button" class="btn reload btn-secondary"><span class="oi oi-reload"></span></button>
-                        <button type="button" class="btn next btn-secondary"><span class="oi oi-chevron-right"></span></button>
+                <a class="go-home" href="" style="text-decoration: none; color:inherit"><h1 class="display-4">Hvem, Hva, Hvor (i avdeling Fundator)</h1></a>                
+                <div id="project-prez">
+                    <div class="navigate">
+                        <div class="btn-group controls" role="group">
+                            <button type="button" class="btn prev btn-secondary"><span class="oi oi-chevron-left"></span></button>
+                            
+                            <button type="button" class="btn reload btn-secondary hide-on-prez" data-bind="style: {display: ($root.isDev()? 'block' : 'none')}"><span class="oi oi-reload"></span></button>
+                            
+                            <button type="button" class="btn next btn-secondary"><span class="oi oi-chevron-right"></span></button>
+                        </div>
+                    </div>
+                    <div class="project" data-bind="attr: {id: 'p-' + $data.selectedProj()}, template: {name: 'project-template', data: $data[$data.selectedProj()]}"></div>
+                    <div class="misc">
+                        <input type="checkbox" id="dev-toggle" data-toggle="toggle" data-width="60" data-height="24" data-on="Dev" data-off="Prez">
+                        <!--ko if: $root.isDev()-->
+                        <a class="btn edit hide-on-prez" data-bind="attr: { download: 'proj' + $data.selectedProj() + '.json', href: 'data:application/json;charset=UTF-8,' + escape(JSON.stringify($data[$data.selectedProj()], null, '\t')) }"><span class="oi oi-pencil"></span></a>
+                        <!--/ko-->
                     </div>
                 </div>
-                    <div id="project-prez">
-                        <div class="project" data-bind="attr: {id: 'p-' + $data.selectedProj()}, template: {name: 'project-template', data: $data[$data.selectedProj()]}">
-                        </div>
-                        <a  class="btn edit" data-bind="attr: { download: 'proj' + $data.selectedProj() + '.json', href: 'data:application/json;charset=UTF-8,' + escape(JSON.stringify($data[$data.selectedProj()], null, '\t')) }"><span class="oi oi-pencil"></span></a>
-                    </div>
                 </div>
         </div>
         <!--<button type="button" class="btn edit btn-secondary" ><span class="oi oi-pencil"></span></button>-->
     </div>
     <script>
-
-        $(function () {
-            let projects = null;
-
-            function getImageFile(name) {
-                var names = name.split(' ');
-                var filename = "";
-                names.forEach(n => {
-                    filename = filename + n.toLowerCase()[0];
-                });
-                if (filename) {
-                    return filename + ".jpg";
-                }
-                return null;
-            }
-
-            function getParameterByName(name, url) {
-                if (!url) url = window.location.href.toLowerCase();
-                name = name.replace(/[\[\]]/g, '\\$&');
-                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-                    results = regex.exec(url);
-                if (!results) return null;
-                if (!results[2]) return '';
-                return decodeURIComponent(results[2].replace(/\+/g, ' '));
-            }
-
-            function processModel() {
-                projects.forEach(p => {
-                    p.consultants.forEach(co => {
-                        co.imagefile = co.imagefile || getImageFile(co.name);
-                    });
-                });
-            }
-
-            $.getJSON(window.location.origin + window.location.pathname + "projects.json", null,
-                function (data, textStatus, jqXHR) {
-                    //alert('sdfsdf');(
-                    projects = data;
-                    if (projects.length) {
-                        processModel();
-                        let selectedId = 0;
-                        let idqry = getParameterByName("id");
-                        if (idqry) {
-                            selectedId = parseInt(idqry);
-                        }
-                        projects.selectedProj = ko.observable(selectedId);
-                        ko.applyBindings(projects, $("#project-prez")[0]);
-                    }
-                }
-            );
-            
-            $(".next").on("click", function (event) {
-                event.stopPropagation();
-                if (projects.selectedProj() < projects.length - 1) {
-                    projects.selectedProj(projects.selectedProj() + 1);
-                }
-            });
-
-            $(".prev").on("click", function (event) {
-                event.stopPropagation();
-                if (projects.selectedProj() > 0) {
-                    projects.selectedProj(projects.selectedProj() - 1);
-                }
-            });
-            $(".reload").on("click", function (event) {
-                event.stopPropagation();
-                window.location.replace(window.location.origin + window.location.pathname + (projects.selectedProj() > 0? ("?id=" + projects.selectedProj()) :""));
-            });
-            $("A").on("click", function (event) { event.stopPropagation();});
-            //$(".slideshow").on("click", function (event) {
-            //    if (event.button === 0) {                    
-            //        let $btn = (event.clientX > ($(".slideshow").width() / 2)
-            //            ? $(".next")
-            //            : $(".prev"));
-            //        $btn.click();
-            //    }
-            //});
-            $(".go-home").attr("href", window.location.origin + window.location.pathname);
-
-        });
     </script>
 
 </body>

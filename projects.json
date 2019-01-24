@@ -38,7 +38,7 @@
 	},
 	{
 		"customer": "BN Bank",
-		"name": "Kundeavgangsmodell",
+		"name": "Kundeavgangsmodell for forbrukslån",
 		"descriptions": ["Maskinlæringsprosjekt. Formålet er å prøve å predikere potensiell kundeflukt med basis i sentimentanalyser fra forskjellige SoMe-kilder"],
 		"consultants": [
 			{
@@ -76,13 +76,19 @@
 	{
 	"customer": "DeBank",
 	"name": "Integrasjonsmotor",
-	"descriptions": ["Integrasjoner mot tredjeparter"],
+	"descriptions": ["Integrasjonsplattform som gjør det mulig for eksterne tredjeparter såvel som interne systemer å enkelt integrere seg med andre komponenter i DeBanks IT-portefølje."],
 	"consultants": [
 		{
 			"name": "Andreas Ravnestad",
 			"group": "Systemutvikling",
-			"qualifications": ["Azure", "Digital signing (Signicat)"],
+			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
 			"imagefile": "ar.jpg"
+		},
+		{
+			"name": "Elias Sundby Aukan",
+			"group": "Systemutvikling",
+			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
+			"imagefile": "esa.jpg"
 		}
 	]
 	},
@@ -101,12 +107,12 @@
 	{
 	"customer": "DeBank",
 	"name": "Kjerne-API/Scoring",
-	"descriptions": [],
+	"descriptions": ["Eksternt API for oppslag / utregning av kreditor og/eller debitor scoring "],
 	"consultants": [
 		{
 			"name": "Elias Sundby Aukan",
 			"group": "Systemutvikling",
-			"qualifications": [".Net WebAPI, REST","Azure"],
+			"qualifications": [".Net WebAPI, REST","Financial Scoring"],
 			"imagefile": "esa.jpg"
 		}
 	]
@@ -114,12 +120,12 @@
 	{
 		"customer": "Difi",
 		"name": "Kunnskapsgrunnlag ML, KI og stordata",
-		"descriptions": ["Norconsult utarbeider et kunnskapsgrunnlag for Difi om bruk av maskinklæring, kunstig intelligens og stordata i Difis fellesløsninger. Dette omfatter eInnsyn, ID-porten, eSignering, Digital postkasse, kontakt- og reservasjonsregisteret og eFormidling. Som del av oppdraget har vi gjennomført fagdager for Difis ansatte og intervjuer med prosjektsjefer og arkitekter. I tillegg skal vi gjennomføre konseptutprøvinger av noen utvalgte anvendelsesområder."],
+		"descriptions": ["Norconsult utarbeider et kunnskapsgrunnlag for Difi om bruk av maskinlæring, kunstig intelligens og stordata i Difis fellesløsninger. Dette omfatter eInnsyn, ID-porten, eSignering, Digital postkasse, kontakt- og reservasjonsregisteret og eFormidling. Som del av oppdraget har vi gjennomført fagdager for Difis ansatte og intervjuer med prosjektsjefer og arkitekter. I tillegg skal vi gjennomføre konseptutprøvinger av noen utvalgte anvendelsesområder."],
 		"consultants": [
 			{
 				"name": "Andreas Ravnestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Koordinering"]
+				"qualifications": ["Wannabe og stadig plagiert Powerpoint-artist"]
 			},
 			{
 				"name": "Viggo T. Wivestad",
@@ -201,16 +207,30 @@
 		]
 	},
 	{
-		"customer": "Equinor",
-		"name": "ROBIM: Real-time Offshore Barrier Integrity Map",
-		"descriptions": [],
-		"consultants": [
-			{
-				"name": "Sindre Fjermestad",
-				"group": "Systemutvikling",
-				"qualifications": []
-			}
-		]
+	   "customer": "Equinor",
+	   "name": "DDPD: Data Driven Prediction and Decisions",
+	   "descriptions": ["DDPD er et FoU prosjekt sentrert rundt produksjonsdataen Equinor har fra brønnene sine. Målet er å hjelpe ledelsen med avgjørelsen om hvor den neste brønnen skal plasseres I eksisterende felt, I nye områder og I tillegg komme med estimate for livstidsløp produksjon for brønnen til hjelp for budsjettering over lengre tid. Et team av statistikkere, matematikere og datavitenskapsmenn jobber med å finne felt-predikatorer blandt de titusenvis av brønnenne som logger data om produksjon og forhold."],
+	   "consultants": [
+					  {
+									  "name": "Sindre Fjermestad",
+									  "group": "Systemutvikling",
+									  "qualifications": ["Data Scientist","Systems Developer", "Machine Learning", "azure", "python development", "artificial intelligence"],
+									  "imagefile": "sf.jpg"
+					  }
+			]
+	},
+	{
+	   "customer": "Equinor",
+	   "name": "ROBIM",
+	   "descriptions": ["ROBIM er et av digitalisering, optimalisering, og automatiseringsprosjektene Equinor har gående for å bedre overvåkning av feltene sine. Dette prosjektet er spesifikt rettet mot live overvåkning av sikkerhetsbarrierer, både prosess og teknisk baserte. Det skal bygges integrasjonsmotor og visualiseringsverktøy opp mot alle kildene Equinor har til sikkerhetsinformasjon og det skal samles på en plass for å knyttes inn i deres IOC (Integrated Operations Central) løsning. Suksesshistorien er ungått utslipp eller flere timer spart i utrykning for å redde situasjonen. Utslippsuhell telles fort i milliarder i tap ved Sen utrykning eller avgjørelse om at alarmen var en falsk positiv I første omgang."],
+	   "consultants": [
+					  {
+									  "name": "Sindre Fjermestad",
+									  "group": "Systemutvikling",
+									  "qualifications": ["Data Scientist","Systems Developer"],
+									  "imagefile": "sf.jpg"
+					  }
+			]
 	},
 	{
 		"customer": "Renovasjonsetaten i Oslo",
@@ -253,34 +273,34 @@
 	},
 	{
 		"customer": "Kystverket",
-		"name": "SSN",
-		"descriptions": [],
+		"name": "SafeSeaNet",
+		"descriptions": ["SafeSeaNet Norway er et internettbasert meldingssystem hvor skipsfarten sender pliktige ankomst- og avgangsopplysninger til norske myndigheter og havner. Kystverket utvikler og drifter SafeSeaNet Norway som en felles nasjonal meldeportal for skipsfarten."],
 		"consultants": [
 			{
 				"name": "Terje Hellesvik",
 				"group": "Konsulent",
-				"qualifications": [],
+				"qualifications": ["Prosjektleder","Arkitekt"],
 				"imagefile": "terje.jpg"
 			},
 			{
 				"name": "Mats Hoel",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Arkitekt","Utvikling"]
 			},
 			{
 				"name": "Stefan V. Haug",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Arkitekt","Utvikling"]
 			},
 			{
 				"name": "Steinar Haram",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Utvikling"]
 			},
 			{
 				"name": "Bård Løkås",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Utvikling"]
 			}
 		]
 	},
@@ -299,34 +319,35 @@
 	{
 		"customer": "NoIS",
 		"name": "ISY Prosjekt",
-		"descriptions": [],
+		"descriptions": ["Reengineering og utvidelser av ISY Prosjekt og underliggende tjenester","Felles arkitektur og integrasjonsmodell(Isy 360)"],
 		"consultants": [
 			{
 				"name": "Siri Helen Wroldsen",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Grafisk designer"]
 			},
 			{
 				"name": "Jon Sommervold",
 				"group": "ITSUR",
-				"qualifications": []
-			},
-			{
-				"name": "Kristian Rasmussen",
-				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Tech Lead"]
 			}
 		]
 	},
 	{
 		"customer": "NoIS",
-		"name": "MADART",
-		"descriptions": [],
+		"name": "MADART / MVRART (Marine Voyage Recognition with AIS in Real Time)",
+		"descriptions": ["Videreutvikling av MADART modellen, rettet mot overvåkning av skipstrafikk"],
 		"consultants": [
 			{
 				"name": "Vigleik Lund",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": [
+					"Maskinlæring / KI", 
+					"Dynamic time warping", 
+					"Tidsserieanalyse", 
+					"Big data",
+					"Geodata"
+				]
 			}
 		]
 	},
@@ -389,7 +410,7 @@
 			{
 				"name": "Jørgen Longva",
 				"group": "Administrasjon",
-				"qualifications": []
+				"qualifications": ["Programledelse"]
 			}
 		]
 	},
@@ -456,7 +477,7 @@
 	},	
 	{
 		"customer": "Siemens",
-		"name": "Smarte Ladestasjoner",
+		"name": "Smart energiplanlegging for batteridrevne ferjer",
 		"descriptions": [
 			"Som en del av det grønne skiftet skal Siemens, i samarbeid med Forskningsrådet, Innovasjon Norge og Enova, bytte ut rundt 30 dieselferger med elektriske ferger langs vestkysten av Norge. For å sikre stabil ladekapasitet, selv for anlegg med kapasitetsbegrensninger i strømnettet, har Siemens besluttet å opprette såkalte «smarte ladestasjoner» som skal fungere som en batteribank med hurtigladefunksjonalitet mot fergene. For å få mest mulig utbytte av teknologien er Norconsult leid inn for å bistå med utviklingen av automatisk energiplanlegging basert på maskinlæring. I første omgang arbeides mot å få på plass en sikker IT-integrasjon som sikrer dataintegritet samtidig som den sørger for en felles standard for innhenting og utveksling av data. Videre skal måleverdier fra bl.a. fergen og ladestasjonen brukes til optimalisering av batterilevetid, optimale ladeprosesser og pålitelig drift."
 		],
@@ -464,7 +485,7 @@
 			{
 				"name": "Andreas Ravnestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Kommunikasjon","Ressurskoordinator"]
+				"qualifications": ["Rådgivning"]
 			},
 			{
 				"name": "Viggo T. Wivestad",
@@ -491,13 +512,13 @@
 	},
 	{
 		"customer": "SINTEF",
-		"name": "API for vannkraftprediksjon",
-		"descriptions": [],
+		"name": "Integrasjon av API for vannkraftprediksjon",
+		"descriptions": ["Integrasjon av SINTEF SHOP som er et korttids produksjonsplanleggingsverktøy som fokuserer på optimal bruk av vannkraftressurser"],
 		"consultants": [
 			{
 				"name": "Bjørnar Vassøy",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": ["Python", "C/C++"]
 			}
 		]
 	},
@@ -524,27 +545,27 @@
 			{
 				"name": "Marita Ruud Gundersen",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Produkteier"]
 			},
 			{
 				"name": "Adrian Kreutz",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Utvikler", ".Net", "Asp.net MVC"]
 			},
 			{
 				"name": "Anders Norstad Kroken",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Scrum master"]
 			},
 			{
 				"name": "Marius Bye Hagen",
 				"group": "Systemutvikling",
-				"qualifications": [".Net", "Asp.net"]
+				"qualifications": ["Utvikler", ".Net", "Asp.net MVC"]
 			},
 			{
 				"name": "Morten Stenseth",
 				"group": "ITSUR",
-				"qualifications": []
+				"qualifications": ["Utvikler", ".Net", "Asp.net MVC"]
 			},
 			{
 				"name": "Daniel Turon",
@@ -601,13 +622,13 @@
 	},
 	{
 		"customer": "Telenor",
-		"name": "Webutvikling",
-		"descriptions": [],
+		"name": "Telenor Utviklerportal",
+		"descriptions": ["Utvikling av webapp for eksponering av API utviklet internt i Telenor. Presentasjon av API-dokumentasjon, integrasjonsguide, konfigurasjon av interaksjon mot bestemte API, etc."],
 		"consultants": [
 			{
 				"name": "Kjetil Møkkelgjerd",
 				"group": "Systemutvikling",
-				"qualifications": [],
+				"qualifications": ["Frontend web utvikling","React"],
 				"imagefile": "kjetilm.jpg"
 			}
 		]
@@ -650,12 +671,16 @@
 	{
 		"customer": "Volmax",
 		"name": "AI/ML/Utvikling",
-		"descriptions": [],
+		"descriptions": ["Prediksjon av kostnader og prising for servicekontrakter på Volvo lastebiler"],
 		"consultants": [
 			{
 				"name": "Einar Wigum Arbo",
 				"group": "Systemutvikling",
-				"qualifications": []
+				"qualifications": [
+					"Python", 
+					"AI/ML", 
+					"Jupyter Notebook"
+				]
 			}
 		]
 	}
