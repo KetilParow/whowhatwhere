@@ -83,6 +83,12 @@
 			"group": "Systemutvikling",
 			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
 			"imagefile": "ar.jpg"
+		},
+		{
+			"name": "Elias Sundby Aukan",
+			"group": "Systemutvikling",
+			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
+			"imagefile": "esa.jpg"
 		}
 	]
 	},
@@ -205,26 +211,26 @@
 	   "name": "DDPD: Data Driven Prediction and Decisions",
 	   "descriptions": ["DDPD er et FoU prosjekt sentrert rundt produksjonsdataen Equinor har fra brønnene sine. Målet er å hjelpe ledelsen med avgjørelsen om hvor den neste brønnen skal plasseres I eksisterende felt, I nye områder og I tillegg komme med estimate for livstidsløp produksjon for brønnen til hjelp for budsjettering over lengre tid. Et team av statistikkere, matematikere og datavitenskapsmenn jobber med å finne felt-predikatorer blandt de titusenvis av brønnenne som logger data om produksjon og forhold."],
 	   "consultants": [
-					  {
-									  "name": "Sindre Fjermestad",
-									  "group": "Systemutvikling",
-									  "qualifications": ["Data Scientist","Systems Developer", "Machine Learning", "azure", "python development", "artificial intelligence"],
-									  "imagefile": "sf.jpg"
-					  }
-			]
+			  {
+				  "name": "Sindre Fjermestad",
+				  "group": "Systemutvikling",
+				  "qualifications": ["Data Scientist","Systems Developer", "Machine Learning", "azure", "python development", "artificial intelligence"],
+				  "imagefile": "sf.jpg"
+			  }
+		]
 	},
 	{
 	   "customer": "Equinor",
 	   "name": "ROBIM",
 	   "descriptions": ["ROBIM er et av digitalisering, optimalisering, og automatiseringsprosjektene Equinor har gående for å bedre overvåkning av feltene sine. Dette prosjektet er spesifikt rettet mot live overvåkning av sikkerhetsbarrierer, både prosess og teknisk baserte. Det skal bygges integrasjonsmotor og visualiseringsverktøy opp mot alle kildene Equinor har til sikkerhetsinformasjon og det skal samles på en plass for å knyttes inn i deres IOC (Integrated Operations Central) løsning. Suksesshistorien er ungått utslipp eller flere timer spart i utrykning for å redde situasjonen. Utslippsuhell telles fort i milliarder i tap ved Sen utrykning eller avgjørelse om at alarmen var en falsk positiv I første omgang."],
 	   "consultants": [
-					  {
-									  "name": "Sindre Fjermestad",
-									  "group": "Systemutvikling",
-									  "qualifications": ["Data Scientist","Systems Developer"],
-									  "imagefile": "sf.jpg"
-					  }
-			]
+			  {
+				  "name": "Sindre Fjermestad",
+				  "group": "Systemutvikling",
+				  "qualifications": ["Data Scientist","Systems Developer"],
+				  "imagefile": "sf.jpg"
+			  }
+		]
 	},
 	{
 		"customer": "Renovasjonsetaten i Oslo",
@@ -484,23 +490,23 @@
 			{
 				"name": "Viggo T. Wivestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Rådgivning"]
+				"qualifications": ["Data scientist"]
 			},
 			{
 				"name": "Thomas Thoresen",
 				"group": "Systemutvikling",
-				"qualifications": ["Rådgivning"]
+				"qualifications": ["Data scientist"]
 			},
 			{
 				"name": "Bjørn Hakavik",
 				"group": "GIS & KF",
-				"qualifications": ["Rådgivning", "samhandling mot strømnettleverandører"],
+				"qualifications": ["Seniorrådgiver", "samhandling mot strømnettleverandører"],
 				"imagefile": "hakavik.jpg"
 			},
 			{
 				"name": "Jørgen Longva",
 				"group": "Systemutvikling",
-				"qualifications": ["Rådgivning"]
+				"qualifications": ["Koordinator"]
 			}
 		]
 	},
