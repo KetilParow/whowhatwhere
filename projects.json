@@ -83,12 +83,6 @@
 			"group": "Systemutvikling",
 			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
 			"imagefile": "ar.jpg"
-		},
-		{
-			"name": "Elias Sundby Aukan",
-			"group": "Systemutvikling",
-			"qualifications": ["Azure Cloud Services", "Azure Service Bus","Azure Storage", "Digital signering (Signicat)"],
-			"imagefile": "esa.jpg"
 		}
 	]
 	},
@@ -490,23 +484,23 @@
 			{
 				"name": "Viggo T. Wivestad",
 				"group": "Systemutvikling",
-				"qualifications": ["Data scientist"]
+				"qualifications": ["Rådgivning"]
 			},
 			{
 				"name": "Thomas Thoresen",
 				"group": "Systemutvikling",
-				"qualifications": ["Data scientist"]
+				"qualifications": ["Rådgivning"]
 			},
 			{
 				"name": "Bjørn Hakavik",
 				"group": "GIS & KF",
-				"qualifications": ["Seniorrådgiver", "samhandling mot strømnettleverandører"],
+				"qualifications": ["Rådgivning", "samhandling mot strømnettleverandører"],
 				"imagefile": "hakavik.jpg"
 			},
 			{
 				"name": "Jørgen Longva",
 				"group": "Systemutvikling",
-				"qualifications": ["Koordinator"]
+				"qualifications": ["Rådgivning"]
 			}
 		]
 	},

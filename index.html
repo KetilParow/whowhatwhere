@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="consultant-picture col" data-bind="visible: imagefile != null">
-                    <img data-bind="attr: {src: 'images/'+ imagefile}" onerror="arguments[0].currentTarget.style.display='none'" />
+                    <img data-bind="attr: {src: 'images/'+ imagefile, title: name}" onerror="arguments[0].currentTarget.style.display='none'" />
                 </div>
             </div>
         </div>
