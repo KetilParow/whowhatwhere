@@ -4,7 +4,7 @@ $(function () {
     function getImageFile(name) {
         var names = name.split(' ');
         var filename = "";
-        names.forEach(n => {
+        names.forEach(function(n) {
             filename = filename + n.toLowerCase()[0];
         });
         if (filename) {
@@ -24,8 +24,8 @@ $(function () {
     }
 
     function processModel() {
-        projects.forEach(p => {
-            p.consultants.forEach(co => {
+        projects.forEach(function(p)  {
+            p.consultants.forEach(function(co) {
                 co.imagefile = co.imagefile || getImageFile(co.name);
             });
         });
